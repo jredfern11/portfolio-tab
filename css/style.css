@@ -1,0 +1,78 @@
+.active{
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: yellow;
+}
+
+nav{
+	text-align: center;
+	background-color: gray;
+	height: 30px;
+}
+
+body{
+	background-color: black;
+}
+
+.image-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px 20px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: xx-large;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: white wavy underline;
+}
+
+.image-grid img{
+	image-orientation: 90deg;
+}
+
+nav li{
+	display: inline;
+	font-size: larger;
+	justify-content: space-between;
+}
+
+.myinfo{
+	color: white;
+	padding: 15px;
+}
+
+*{
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.myinfo{
+	padding-top: 20px;
+}
+
+footer{
+	background-color: gray;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1300px){
+	.active{
+		font-weight: bolder;
+		background-color: white;
+
+	}
+
+	.image-grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+}
